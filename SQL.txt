@@ -1,6 +1,0 @@
-﻿в таблице Product существуют поля ProductId, ProductName и CategoryId.
-в таблице Category поля CategoryId и CategoryName.
-
-SELECT Products.ProductName, Categories.CategoryName
-FROM Products
-LEFT JOIN Categories ON Products.CategoryID = Categories.CategoryID
