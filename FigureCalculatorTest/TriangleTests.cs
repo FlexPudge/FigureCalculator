@@ -13,14 +13,14 @@ namespace FigureCalculatorTest
             Assert.AreEqual(12, result);
         }
         [TestMethod]
-        public void ExistenceTriangl—heked()
+        public void ExistenceTriangle–°heck()
         {
             Triangle triangle = new Triangle(1, 5, 7);
             double result = triangle.Area();
             Assert.AreEqual(true, result);
         }
         [TestMethod]
-        public void RectangularTriangl—heked()
+        public void RectangularTriangle–°heck()
         {
             Triangle triangle = new Triangle(4, 5, 3);
             bool result = triangle.IsRightTringle();
